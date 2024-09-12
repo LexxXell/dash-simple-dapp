@@ -1,0 +1,21 @@
+{
+  "name": "dash-simple-dapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dash:new_mnemonic": "node ./src/actions/newMnemonic.js",
+    "dash:address": "node ./src/actions/getAddress.js",
+    "identity:register": "node ./src/actions/registerIdentity.js",
+    "dataContract:deploy": "node ./src/actions/deployContract.js",
+    "document:push": "node ./src/actions/pushDocument.js",
+    "document:get": "node ./src/actions/getDocument.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dash": "^4.2.0",
+    "dotenv": "^16.4.5"
+  }
+}
